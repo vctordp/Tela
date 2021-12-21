@@ -1,0 +1,102 @@
+/* Backgrounds */
+.RenaSolo{
+    position:absolute;
+    height: 300px;
+    width: 300px;
+    top: 200px;
+    left: 900px;
+}
+.Neve-escolha{
+    position:absolute;
+    height: 100%;
+    left: -10%;
+    transform: scaleX(-1);
+}
+
+/* Conteudo principal do site */
+.Global{
+    flex-wrap: wrap;
+    display:flex;
+    align-items: row;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Cards de escolha */
+
+.Temas{
+    width: 5em;
+    margin-left: 16em;
+    margin-top: 6em;
+}
+
+.Tema-css{
+    width: 20em;
+}
+
+.text-cards{
+    margin-top: 2em;
+    margin-right: 10em;
+    position: absolute;
+}
+.Temas h3{
+    position: absolute;
+    font-family: Tinos;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.18px;
+    color: #fff;
+}
+.Temas h2{
+    margin-top: 1.3em;
+    font-family: DMSerifDisplay;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    color: #fff;
+}
+.Temas img{
+    margin-left: 4.5em;
+    width: 300px;
+}
+
+.line1{
+    width: 4.25rem;
+    margin-top: 20px;
+    position:absolute;
+    border: 2px solid #f5c126;
+    background-color: #f5c126;
+}
+/* texto de apoio */
+
+.Txt-apoio{
+    width: 9em;
+    margin-left: 25em;
+    margin-right: 10em;
+}
+.Txt-apoio p{
+    margin-top: 6em;
+    font-family: DMSerifDisplay;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.23;
+    letter-spacing: 0.24px;
+    text-align: left;
+    color: #fff;
+}
+
+/* logo ja esta no local */
+
+.Logo img{
+    margin-top: 2em;
+    width: 150px;
+}
